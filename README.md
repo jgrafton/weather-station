@@ -22,6 +22,8 @@ the outside weather is like.
 ### Power reducing options
 - Turn off bluetooth
     - should be a raspberry pi overlay
+- Turn off HDMI
+    - /usr/bin/tvservice -o in /etc/rc.local
 
 ### Energy consumption
 - How to measure the amount of power the raspberry pi consumes with the options I'm adding to it?
