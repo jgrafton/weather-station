@@ -113,6 +113,9 @@ server.
 ### Lesson's learned from POC
 - Solar panel with battery built in is nice but does not allow for remote
     reporting of the solar panel / battery state.
+- Putting a box that's in direct sunlight over the temperature sensor is not
+    enough shade.  The temperature sensor should be shaded by the north side of
+    a building.
 
 
 ## Budget
