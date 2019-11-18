@@ -1,6 +1,8 @@
 # Outdoor Weather Station Build
 
-## Abstract
+![Proof of Concept](images/weather_station_poc.png?raw=true "Proof of Concept")
+
+## About
 Build a weather station that runs outdoors all day and night.  The station
 should report metrics to a central server on the home's network which can be
 aggrigated and graphed.
@@ -80,13 +82,11 @@ sys/dev/sdio/sdiodevs:
 product BROADCOM 43430          0xa9a6  BCM43430 fullmac SDIO WiFi
 ```
 
-
 ## Proof of concept
 Build a Raspberry Pi ZeroW w/ comercial phone recharging solar panel that stays
 running throughout the day and night and sends data to the metric collecting
 server.
 
-![Proof of Concept](images/weather_station_poc.png?raw=true "Proof of Concept")
 
 ### POC Bill of Materials
 - Raspberry Pi Zero WH
