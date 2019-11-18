@@ -137,9 +137,11 @@ server.
 - ~~order second raspberry pi 0w w/ headers~~
 - ~~order PMS5003 particulate sensor~~
 - ~~attach temperature sensor to POC~~
-- allow POC to run over night, does it survive?
-- attach humidity sensor to POC
-- attach headers to second raspberry pi
+- ~~allow POC to run over night, does it survive?  YES!~~
+- ~~attach headers to second raspberry pi~~
+- ~~install rasbian buster on second rpi~~
+- ~~attach humidity sensor to second rpi~~
+- ~~use second rpi as garage source for metrics~~
 - attach header to PMS5003 sensor
 - attach particulate sensor to POC
 - spec out 12w solar panel for actual build
