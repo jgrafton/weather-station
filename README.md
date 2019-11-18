@@ -86,6 +86,8 @@ Build a Raspberry Pi ZeroW w/ comercial phone recharging solar panel that stays
 running throughout the day and night and sends data to the metric collecting
 server.
 
+[Proof of Concept](images/weather_station_poc.png)
+
 ### POC Bill of Materials
 - Raspberry Pi Zero WH
     - https://www.adafruit.com/product/3708
@@ -99,7 +101,7 @@ server.
 
 ### POC Location
 - [Outdoor Air Temperature Sensor Location](https://www.kele.com/content/blog/outside-air-temperature-sensor-location)
-- Currently north side of house.  It's shaded all day.
+- Currently sits on the north side of our house.  It's shaded all day.
 
 ### Lesson's learned from POC
 - Solar panel with battery built in is nice but does not allow for remote
