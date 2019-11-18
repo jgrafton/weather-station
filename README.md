@@ -97,7 +97,14 @@ server.
 - USB mini to micro cable
 - Sensors
     - [Temperature](https://www.adafruit.com/product/381)
+        - DS18B20
+        - (order adafruit's version)
     - [Particulate](https://www.amazon.com/gp/product/B07S5YX84W)
+        - PMS5003
+        - (on order)
+    - [Humidity](https://www.adafruit.com/product/386)
+        - DHT11
+        - (upgrade to DHT22)
 
 ### POC Location
 - [Outdoor Air Temperature Sensor Location](https://www.kele.com/content/blog/outside-air-temperature-sensor-location)
@@ -110,10 +117,15 @@ server.
 
 ## Budget
 - $500
-    - $100 panel
+    - $100 solar panel 
+        - $43.99 phone solar charger (amazon)
     - $100 sensors
+        - $29.99 PMS5003 (amazon)
     - $100 computers
+        - $32.99 Raspberry Pi Zero W kit (amazon)
+        - $19.95 Raspberry Pi Zero WH (adafruit)
     - $100 battery & regulator
+        - $78.95 PiJuice HAT (amazon)
     - $100 misc
 
 
@@ -121,8 +133,15 @@ server.
 - ~~create github location~~
 - ~~order second raspberry pi 0w w/ headers~~
 - ~~order PMS5003 particulate sensor~~
+- ~~attach temperature sensor to POC~~
+- allow POC to run over night, does it survive?
+- attach humidity sensor to POC
 - attach headers to second raspberry pi
 - attach header to PMS5003 sensor
-- attach the PiJuice
+- attach particulate sensor to POC
+- spec out 12w solar panel for actual build
+- spec out battery (4400mAh)
+- attach PiJuice to second pi zero
+- mess around with PiJuice on second pi zero
 - create systemd service definition for reporter.py
 - enable reporter.py service on rpiw0
