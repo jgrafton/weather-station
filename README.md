@@ -86,7 +86,7 @@ Build a Raspberry Pi ZeroW w/ comercial phone recharging solar panel that stays
 running throughout the day and night and sends data to the metric collecting
 server.
 
-[Proof of Concept](images/weather_station_poc.png)
+![Proof of Concept](images/weather_station_poc.png?raw=true "Proof of Concept")
 
 ### POC Bill of Materials
 - Raspberry Pi Zero WH
