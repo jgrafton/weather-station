@@ -118,6 +118,18 @@ server.
     a building.
 
 
+## Build Bill of Materials
+- Raspberry Pi Zero WH
+    - https://www.adafruit.com/product/3708
+- Lithium Ion Polymer Battery - 3.7v 2500mAh
+    - 2.5Ah x 3.7v = 9.25 wh
+    - 9.25 wh / 9 watt panel = ~1 hour recharge
+    - https://www.adafruit.com/product/328
+- Solar Panel
+    - Adafruit Colossal 6V 9W Solar Panel
+    - https://www.adafruit.com/product/2747
+
+
 ## Budget
 - $500
     - $100 solar panel 
@@ -142,11 +154,16 @@ server.
 - ~~install rasbian buster on second rpi~~
 - ~~attach humidity sensor to second rpi~~
 - ~~use second rpi as garage source for metrics~~
-- attach header to PMS5003 sensor
-- attach particulate sensor to POC
-- spec out 12w solar panel for actual build
-- spec out battery (4400mAh)
-- attach PiJuice to second pi zero
-- mess around with PiJuice on second pi zero
-- create systemd service definition for reporter.py
+- ~~attach header to PMS5003 sensor~~
+- ~~attach particulate sensor to garage and get software functional~~
+- ~~attach particulate sensor to POC~~
+- ~~spec out solar panel for actual build~~
+- ~~spec out battery~~
+- ~~attach PiJuice to second pi zero~~
+- ~~mess around with PiJuice on second pi zero~~
+- ~~create systemd service definition for reporter.py~~
+- modularize reporter.py for sensors
+- build method to deploy reporter.py to raspberry pis
 - enable reporter.py service on rpiw0
+
+
