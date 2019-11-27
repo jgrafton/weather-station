@@ -1,6 +1,8 @@
 # Outdoor Weather Station Build
 
 ![Proof of Concept](images/weather_station_poc.png?raw=true "Proof of Concept")
+![Prototype](images/weather_station_prototype.png?raw=true "Prototype")
+![Grafana](images/grafana.png?raw=true "Grafana")
 
 ## About
 Build a weather station that runs outdoors all day and night.  The station
