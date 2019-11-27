@@ -162,8 +162,21 @@ server.
 - ~~attach PiJuice to second pi zero~~
 - ~~mess around with PiJuice on second pi zero~~
 - ~~create systemd service definition for reporter.py~~
-- modularize reporter.py for sensors
-- build method to deploy reporter.py to raspberry pis
-- enable reporter.py service on rpiw0
-
-
+- ~~modularize reporter.py for sensors~~
+  - ~~put sensor monitoring scripts into cron~~
+  - ~~add a prometheus pushgateway on the raspberry pi~~
+  - ~~push metrics to local pushgateway~~
+  - ~~add gateways to prometheus targets~~
+- ~~enable cron~~
+  - ~~temperature~~
+  - ~~particulate matter~~
+  - ~~battery~~
+- ~~setup pijuice to turn off at 10% battery and turn on at 30%~~
+- ~~install new Solar Panel~~
+- ~~attach reset and enable PIN on PMS5003 to rpi~~
+  - ~~unnecessary, disable active mode with command~~
+- ~~turn off pms5003 active mode when not sensing~~
+  - ~~done with a command over the serial interface~~
+- ~~install new battery~~
+- ~~spec out an external case for outdoor weather station~~
+  - ~~plastic tub appears to be working out~~
